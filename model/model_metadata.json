@@ -1,7 +1,0 @@
-{
-  "model_name": "laptop-pricing-model",
-  "version": "5",
-  "run_id": "211650eabbba4ef2a9cf2c7aed6fc36b",
-  "source": "mlflow-artifacts:/3ef16225938f4c37b7566d2fc4480a7c/211650eabbba4ef2a9cf2c7aed6fc36b/artifacts/model",
-  "downloaded_at": "2025-06-01T14:09:58.259050"
-}
