@@ -47,10 +47,10 @@ jobs:
         run: docker build --platform linux/amd64 -t laptop-pricing-api-brl .
 
       - name: Tag to ECR
-        run: docker tag laptop-pricing-api:latest 989944764342.dkr.ecr.us-east-1.amazonaws.com/laptop-pricing-api-brl:latest
+        run: docker tag laptop-pricing-api-brl:latest 989944764342.dkr.ecr.us-east-1.amazonaws.com/laptop-pricing-api-brl:latest
 
       - name: Register in ECR
-        run: docker push 989944764342.dkr.ecr.us-east-1.amazonaws.com/laptop-pricing-api:latest
+        run: docker push 989944764342.dkr.ecr.us-east-1.amazonaws.com/laptop-pricing-api-brl:latest
 
       - name: Update Lambda
         run: aws lambda update-function-code --function-name laptop-pricing-api-brl --image-uri 989944764342.dkr.ecr.us-east-1.amazonaws.com/laptop-pricing-api-brl:latest
