@@ -3,7 +3,7 @@ name: Build image then push to registry for deployment
 on:
   workflow_dispatch:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   build-push-imagem-deploy:
