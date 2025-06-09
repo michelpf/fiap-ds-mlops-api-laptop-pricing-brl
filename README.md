@@ -1,4 +1,4 @@
-[![Build and Push to ECR](https://github.com/michelpf/fiap-ds-mlops-api-laptop-pricing/actions/workflows/deploy.yml/badge.svg)](https://github.com/michelpf/fiap-ds-mlops-api-laptop-pricing/actions/workflows/deploy.yml)
+[![Build image then push to registry for deployment](https://github.com/michelpf/fiap-ds-mlops-api-laptop-pricing-brl/actions/workflows/deploy.yml/badge.svg)](https://github.com/michelpf/fiap-ds-mlops-api-laptop-pricing-brl/actions/workflows/deploy.yml)
 
 # API de Predição de Preço de Laptops
 
