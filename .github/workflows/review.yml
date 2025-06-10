@@ -8,7 +8,7 @@ on:
       - 'src/**'
 
 jobs:
-  build-push-imagem-deploy:
+  review:
     runs-on: ubuntu-latest
 
     steps:
