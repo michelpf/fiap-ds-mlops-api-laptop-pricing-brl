@@ -10,7 +10,6 @@ import json
 import boto3
 import joblib
 
-
 model = joblib.load("model/model.pkl")
 
 with open("model/model_metadata.json", "r", encoding="utf-8") as f:
@@ -83,7 +82,6 @@ def input_metrics(data, prediction):
         ], Namespace='Laptop Pricing Features')
 
 
-
 def handler(event, context=False):
     """
     Função principal de execução da API no Lambda
@@ -97,7 +95,6 @@ def handler(event, context=False):
     """
 
     print(event)
-    print(context)
 
     if "body" in event:
         print("Body found in event, invoke by API Gateway.")
