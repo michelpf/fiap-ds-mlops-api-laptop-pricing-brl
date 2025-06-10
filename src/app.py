@@ -95,6 +95,7 @@ def handler(event, context=False):
     """
 
     print(event)
+    print(context)
 
     if "body" in event:
         print("Body found in event, invoke by API Gateway.")
