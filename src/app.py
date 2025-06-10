@@ -10,7 +10,6 @@ import json
 import boto3
 import joblib
 
-
 model = joblib.load("model/model.pkl")
 
 with open("model/model_metadata.json", "r", encoding="utf-8") as f:
@@ -81,7 +80,6 @@ def input_metrics(data, prediction):
                 'Dimensions': [{'Name': key, 'Value': str(value)}]
             },
         ], Namespace='Laptop Pricing Features')
-
 
 
 def handler(event, context=False):
